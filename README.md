@@ -13,7 +13,6 @@ The data part of the files contains VRTX or PRTX lines that have the point infor
 
 Also there can be ATOM lines which reference a previous point's VRTX - apparently to have a topologically distinct reference that shares the same location data - which doesn't matter if all you want is X, Y, Z, but needs handling.
 
-
 ## Information
 
 http://paulbourke.net/dataformats/gocad/gocad.pdf
@@ -33,5 +32,7 @@ This is all basically because of the idea from @fourndo
 https://programtalk.com/vs2/python/12012/simpeg/SimPEG/Utils/io_utils.py/
 
 The GemGIS package uses the above: https://github.com/cgre-aachen/gemgis
+
+Sample data source thanks to SARIG  https://sarigbasis.pir.sa.gov.au/WebtopEw/ws/samref/sarig1/cat0/Record?w=catno%3D2036881+OR+catno%3D2036883+OR+catno%3D2036887&sid=c2ca73f5685c43249e6c1ab5ec7dc2e5&set=1&m=3
 
 
