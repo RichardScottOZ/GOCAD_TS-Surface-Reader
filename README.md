@@ -21,6 +21,10 @@ http://paulbourke.net/dataformats/gocad/gocad.pdf
 
 Pass the TS file path to the read function.
 
+## Notes
+
+There may be other formatting varieties for TS files I am unfamiliar with, it was just written to handle this particular case.  Logic should be easily extensible.
+
 ## Others
 
 Just found this: - https://www.opengeosys.org/docs/tools/fileio/gocadtsurfacereader/
