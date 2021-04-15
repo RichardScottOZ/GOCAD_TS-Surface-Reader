@@ -20,9 +20,18 @@ http://paulbourke.net/dataformats/gocad/gocad.pdf
 
 ## Basics
 
+Pass the TS file path to the read function.
 
 ## Others
 
 Just found this: - https://www.opengeosys.org/docs/tools/fileio/gocadtsurfacereader/
+
+## Thanks
+
+This is all basically because of the idea from @fourndo
+
+https://programtalk.com/vs2/python/12012/simpeg/SimPEG/Utils/io_utils.py/
+
+The GemGIS package uses the above: https://github.com/cgre-aachen/gemgis
 
 
