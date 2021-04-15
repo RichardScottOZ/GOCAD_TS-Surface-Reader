@@ -21,6 +21,8 @@ http://paulbourke.net/dataformats/gocad/gocad.pdf
 
 Pass the TS file path to the read function.
 
+![image](https://user-images.githubusercontent.com/72196131/114952614-c9546880-9e95-11eb-88a1-8343dd8e7bb4.png)
+
 ## Notes
 
 There may be other formatting varieties for TS files I am unfamiliar with, it was just written to handle this particular case.  Logic should be easily extensible.
@@ -38,5 +40,6 @@ https://programtalk.com/vs2/python/12012/simpeg/SimPEG/Utils/io_utils.py/
 The GemGIS package uses the above: https://github.com/cgre-aachen/gemgis
 
 Sample data source thanks to SARIG  https://sarigbasis.pir.sa.gov.au/WebtopEw/ws/samref/sarig1/cat0/Record?w=catno%3D2036881+OR+catno%3D2036883+OR+catno%3D2036887&sid=c2ca73f5685c43249e6c1ab5ec7dc2e5&set=1&m=3
+
 
 
