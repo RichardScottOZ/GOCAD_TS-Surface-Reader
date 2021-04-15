@@ -31,7 +31,7 @@ Just found this: - https://www.opengeosys.org/docs/tools/fileio/gocadtsurfacerea
 
 ## Thanks
 
-This is all basically because of the idea from @fourndo
+This is all basically because of the idea from https://github.com/fourndo
 
 https://programtalk.com/vs2/python/12012/simpeg/SimPEG/Utils/io_utils.py/
 
