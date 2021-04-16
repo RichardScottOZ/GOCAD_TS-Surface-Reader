@@ -29,11 +29,13 @@ There may be other formatting varieties for TS files I am unfamiliar with, it wa
 
 ## Others
 
+geoh5py - The free Geoscience Analyst viewer can import TS files and export to geoh5 format from which you can use https://github.com/MiraGeoscience/geoh5py and lazy load data.
+
 Just found this: - https://www.opengeosys.org/docs/tools/fileio/gocadtsurfacereader/
 
 ## Thanks
 
-This is all basically because of the idea from https://github.com/fourndo
+This is all basically because of the idea from https://github.com/domfournier
 
 https://programtalk.com/vs2/python/12012/simpeg/SimPEG/Utils/io_utils.py/
 
