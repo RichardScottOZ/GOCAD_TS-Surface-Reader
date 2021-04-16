@@ -33,6 +33,10 @@ geoh5py - The free Geoscience Analyst viewer can import TS files and export to g
 
 Just found this: - https://www.opengeosys.org/docs/tools/fileio/gocadtsurfacereader/
 
+## Visualisation
+
+PyVista - https://github.com/pyvista/pyvista
+
 ## Thanks
 
 This is all basically because of the idea from https://github.com/domfournier
