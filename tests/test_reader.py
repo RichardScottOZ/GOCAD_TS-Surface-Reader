@@ -244,6 +244,6 @@ class TestCheckGocadTs:
         path = _write_tmp(TS_WITH_METADATA)
         try:
             result = check_gocad_ts(path)
-            assert result["COORD"] >= 1
+            assert result["COORD"] == 3
         finally:
             os.unlink(path)

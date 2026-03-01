@@ -41,9 +41,7 @@ def read_gocad_ts(tsfile: str) -> Tuple[np.ndarray, np.ndarray]:
         for line in fid:
             line_stripped = line.strip()
 
-            if line_stripped.startswith("PVRTX") or (
-                line_stripped.startswith("VRTX") and not line_stripped.startswith("VRTX}")
-            ):
+            if line_stripped.startswith("PVRTX") or line_stripped.startswith("VRTX"):
                 parts = line_stripped.split()
                 temp = np.array(parts[2:5], dtype=np.float64)
                 vrtx.append(temp)
